@@ -22,7 +22,7 @@ g++ -std=c++11 QClique.cpp -fopenmp -O3 -o QClique
   title = { {QClique}: Optimizing Performance and Accuracy in Maximum Weighted Clique}, 
   author = { Qasim Abbas and {Mohsen} {Koohi Esfahani}  and Ian Overton and Hans Vandierendonck},
   year = {2024},
-  doi = {10.1007/978-3-319-03536-9_13}
+  doi = {10.1007/978-3-319-03536-9_13},
   booktitle = {Euro-Par 2024},
 }
 ```
