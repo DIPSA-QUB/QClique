@@ -3,7 +3,7 @@
 The Maximum Weighted Clique (MWC) problem remains challenging due to its unfavourable time complexity. In this paper, we analyze the execution of exact search-based MWC algorithms and show that high-accuracy weighted cliques can be discovered in the early stages of the execution if searching the combinatorial space is performed systematically. Based on this observation, we introduce QClique as an approximate MWC algorithm that processes the search space as long as better cliques are expected. QClique uses a tunable parameter to trade-off between accuracy vs. execution time and delivers 4.7−82.3× speedup in comparison to previous state-of-the-art MWC algorithms while providing 91.4% accuracy and achieves a parallel speedup of up to 56× on 128 threads. Additionally, QClique accelerates the exact MWC computation by replacing the initial clique of the exact algorithm. For WLMC, an exact state-of-the-art MWC algorithm, this results in 3.3× on average.
 
 ### Paper
-  - https://doi.org/10.1007/978-3-319-03536-9_13
+  - https://doi.org/10.1007/978-3-031-69583-4_7
   - https://blogs.qub.ac.uk/dipsa/qclique-optimizing-performance-and-accuracy-in-maximum-weighted-clique-euro-par-2024/
    
 
@@ -22,8 +22,12 @@ g++ -std=c++11 QClique.cpp -fopenmp -O3 -o QClique
   title = { {QClique}: Optimizing Performance and Accuracy in Maximum Weighted Clique}, 
   author = { Qasim Abbas and {Mohsen} {Koohi Esfahani}  and Ian Overton and Hans Vandierendonck},
   year = {2024},
-  doi = {10.1007/978-3-319-03536-9_13},
-  booktitle = {Euro-Par 2024},
+  doi = {10.1007/978-3-031-69583-4_7},
+  booktitle="Euro-Par 2024: Parallel Processing",
+  year="2024",
+  publisher="Springer Nature Switzerland",
+  address="Cham",
+  pages="88--102",
 }
 ```
 
